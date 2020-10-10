@@ -1,0 +1,39 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+}
+label {
+  font-size: large;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.input {
+  width: 140%;
+  border: 0.2rem solid black;
+  border-radius: 0.3rem;
+}
+button {
+  width: 140%;
+  size: 420%;
+  border-radius: 0.3rem;
+  background-color: rgb(3, 248, 126);
+  font: 1.5em sans-serif;
+  transition: all ease 0.7;
+}
+
+.reset:hover {
+  background-color: red;
+}
+.submit:hover {
+  background-color: green;
+}
